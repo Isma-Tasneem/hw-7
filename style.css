@@ -1,0 +1,79 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    
+    margin: auto;
+}
+.row{
+    display: flex;
+
+}
+/* common css end */
+/* nav section start */
+nav{
+    background-color: #02918c;
+}
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: #ffff;
+    text-transform: uppercase;
+    padding: 19px 25px;
+    display: inline-block;
+    transition: .5s;
+
+}
+nav ul li a:hover{
+    color: #cfc91d;
+}
+/* nav section end */
+/* banner section start */
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./logo.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 133px 140px;
+    
+}
+#banner .container h1{
+    font-size: 62pt;
+    color: #ffff;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+#banner .container h3{
+    font-size: 20pt;
+    color: #ffff;
+}
+#banner .container p{
+    color: #ffff;
+    font-size: 14pt;
+}
+#banner .container a{
+    color: black;
+    display: inline-block;
+    background-color: #cfc91d;
+    padding: 24px 98px;
+    letter-spacing: 5px;
+    font-size: 14pt;
+    transition: .4s;
+}
+/* banner section end */
